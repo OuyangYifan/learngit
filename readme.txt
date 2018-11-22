@@ -1,2 +1,3 @@
-Git is a version control system.
+Primarilly, plan to start python programming in future.
+Git is a distributed version control system.
 Git is free software.
