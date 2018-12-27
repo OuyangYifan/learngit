@@ -3,13 +3,14 @@ import os
 
 #get and show the current work directory
 
+
 print(os.getcwd())
 
 My_Dir = os.path.join('D:\\','SandBox_Dev','Git','dev')
 print(My_Dir)
 os.chdir(My_Dir)
 print(os.getcwd())
-
+os.system('cls')
 
 import random
 capitals = {
@@ -67,8 +68,8 @@ capitals = {
 
 # Generate 35 quiz files.
 for quizNum in range(35):
-    quizFile = open('Capitalsquiz%s.txt' %(quiznumNum + 1),'w')
-    answerKeyFile = open('Capitalsquiz_answers%s.txt' %(quiznumNum + 1),'w')
+    quizFile = open('Capitalsquiz%s.txt' %(quizNum + 1),'w')
+    answerKeyFile = open('Capitalsquiz_answers%s.txt' %(quizNum + 1),'w')
 
     #Write out the header for the quiz:
     quizFile.write('Name:\n\nDate:\n\nPeriod:\n\n')
